@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #1da691;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(225, 55, 55, 0.1);
+
+}
+.container > h1{
+    /* color: #FFFF66;  */
+    text-shadow: #A3A3A3 3px -1px 1px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 0px 0px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
